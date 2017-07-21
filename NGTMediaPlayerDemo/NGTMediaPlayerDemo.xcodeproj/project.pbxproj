@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12383BD51F21FB890006E0C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383BD41F21FB890006E0C0 /* main.m */; };
+		12383BD81F21FB890006E0C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383BD71F21FB890006E0C0 /* AppDelegate.m */; };
+		12383BDB1F21FB890006E0C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383BDA1F21FB890006E0C0 /* ViewController.m */; };
+		12383BDE1F21FB890006E0C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12383BDC1F21FB890006E0C0 /* Main.storyboard */; };
+		12383BE01F21FB890006E0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12383BDF1F21FB890006E0C0 /* Assets.xcassets */; };
+		12383BE31F21FB890006E0C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12383BE11F21FB890006E0C0 /* LaunchScreen.storyboard */; };
+		12383BEC1F21FC6F0006E0C0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BEB1F21FC6F0006E0C0 /* AVFoundation.framework */; };
+		12383BEE1F21FC760006E0C0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BED1F21FC760006E0C0 /* AudioToolbox.framework */; };
+		12383BF01F21FC7A0006E0C0 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BEF1F21FC7A0006E0C0 /* VideoToolbox.framework */; };
+		12383BF21F21FC7E0006E0C0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BF11F21FC7E0006E0C0 /* CoreMedia.framework */; };
+		12383BF41F21FC860006E0C0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BF31F21FC860006E0C0 /* CoreVideo.framework */; };
+		12383BF61F21FC8C0006E0C0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BF51F21FC8C0006E0C0 /* CoreAudio.framework */; };
+		12383BF81F21FC910006E0C0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BF71F21FC910006E0C0 /* MediaPlayer.framework */; };
+		12383BFA1F21FC9A0006E0C0 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BF91F21FC9A0006E0C0 /* libstdc++.6.0.9.tbd */; };
+		12383BFC1F21FCA10006E0C0 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BFB1F21FCA10006E0C0 /* libiconv.2.tbd */; };
+		12383BFE1F21FCAA0006E0C0 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BFD1F21FCAA0006E0C0 /* libc++.1.tbd */; };
+		12383C001F21FCAF0006E0C0 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383BFF1F21FCAF0006E0C0 /* libz.1.tbd */; };
+		12383C021F21FCB40006E0C0 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383C011F21FCB40006E0C0 /* libbz2.1.0.tbd */; };
+		12383C121F21FCCC0006E0C0 /* NGTMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383C061F21FCCC0006E0C0 /* NGTMediaPlayer.m */; };
+		12383C131F21FCCC0006E0C0 /* NGTMediaPlayerActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383C081F21FCCC0006E0C0 /* NGTMediaPlayerActionView.m */; };
+		12383C141F21FCCC0006E0C0 /* NGTMediaPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383C0A1F21FCCC0006E0C0 /* NGTMediaPlayerManager.m */; };
+		12383C151F21FCCC0006E0C0 /* NGTMediaPlayerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383C0C1F21FCCC0006E0C0 /* NGTMediaPlayerProgressView.m */; };
+		12383C161F21FCCC0006E0C0 /* NGTMediaPlayerSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383C0E1F21FCCC0006E0C0 /* NGTMediaPlayerSliderView.m */; };
+		12383C171F21FCCC0006E0C0 /* NGTMediaPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383C101F21FCCC0006E0C0 /* NGTMediaPlayerView.m */; };
+		12383C191F21FD710006E0C0 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12383C181F21FD710006E0C0 /* IJKMediaFramework.framework */; };
+		12383C1C1F2206520006E0C0 /* UIImage+NGTMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383C1B1F2206520006E0C0 /* UIImage+NGTMedia.m */; };
+		12383C1E1F2207490006E0C0 /* NGTMedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12383C1D1F2207490006E0C0 /* NGTMedia.bundle */; };
+		12383C211F220C530006E0C0 /* NGTMediaPlayerManagerViewBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 12383C201F220C530006E0C0 /* NGTMediaPlayerManagerViewBinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12383BD01F21FB890006E0C0 /* NGTMediaPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGTMediaPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12383BD41F21FB890006E0C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12383BD61F21FB890006E0C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12383BD71F21FB890006E0C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12383BD91F21FB890006E0C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12383BDA1F21FB890006E0C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12383BDD1F21FB890006E0C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12383BDF1F21FB890006E0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12383BE21F21FB890006E0C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12383BE41F21FB890006E0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12383BEB1F21FC6F0006E0C0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		12383BED1F21FC760006E0C0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		12383BEF1F21FC7A0006E0C0 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		12383BF11F21FC7E0006E0C0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		12383BF31F21FC860006E0C0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		12383BF51F21FC8C0006E0C0 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		12383BF71F21FC910006E0C0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		12383BF91F21FC9A0006E0C0 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		12383BFB1F21FCA10006E0C0 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		12383BFD1F21FCAA0006E0C0 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		12383BFF1F21FCAF0006E0C0 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		12383C011F21FCB40006E0C0 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		12383C051F21FCCC0006E0C0 /* NGTMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTMediaPlayer.h; sourceTree = "<group>"; };
+		12383C061F21FCCC0006E0C0 /* NGTMediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTMediaPlayer.m; sourceTree = "<group>"; };
+		12383C071F21FCCC0006E0C0 /* NGTMediaPlayerActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTMediaPlayerActionView.h; sourceTree = "<group>"; };
+		12383C081F21FCCC0006E0C0 /* NGTMediaPlayerActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTMediaPlayerActionView.m; sourceTree = "<group>"; };
+		12383C091F21FCCC0006E0C0 /* NGTMediaPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTMediaPlayerManager.h; sourceTree = "<group>"; };
+		12383C0A1F21FCCC0006E0C0 /* NGTMediaPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTMediaPlayerManager.m; sourceTree = "<group>"; };
+		12383C0B1F21FCCC0006E0C0 /* NGTMediaPlayerProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTMediaPlayerProgressView.h; sourceTree = "<group>"; };
+		12383C0C1F21FCCC0006E0C0 /* NGTMediaPlayerProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTMediaPlayerProgressView.m; sourceTree = "<group>"; };
+		12383C0D1F21FCCC0006E0C0 /* NGTMediaPlayerSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTMediaPlayerSliderView.h; sourceTree = "<group>"; };
+		12383C0E1F21FCCC0006E0C0 /* NGTMediaPlayerSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTMediaPlayerSliderView.m; sourceTree = "<group>"; };
+		12383C0F1F21FCCC0006E0C0 /* NGTMediaPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTMediaPlayerView.h; sourceTree = "<group>"; };
+		12383C101F21FCCC0006E0C0 /* NGTMediaPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTMediaPlayerView.m; sourceTree = "<group>"; };
+		12383C181F21FD710006E0C0 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		12383C1A1F2206520006E0C0 /* UIImage+NGTMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NGTMedia.h"; sourceTree = "<group>"; };
+		12383C1B1F2206520006E0C0 /* UIImage+NGTMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NGTMedia.m"; sourceTree = "<group>"; };
+		12383C1D1F2207490006E0C0 /* NGTMedia.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NGTMedia.bundle; sourceTree = "<group>"; };
+		12383C1F1F220C530006E0C0 /* NGTMediaPlayerManagerViewBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTMediaPlayerManagerViewBinder.h; sourceTree = "<group>"; };
+		12383C201F220C530006E0C0 /* NGTMediaPlayerManagerViewBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTMediaPlayerManagerViewBinder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12383BCD1F21FB890006E0C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12383C191F21FD710006E0C0 /* IJKMediaFramework.framework in Frameworks */,
+				12383C021F21FCB40006E0C0 /* libbz2.1.0.tbd in Frameworks */,
+				12383C001F21FCAF0006E0C0 /* libz.1.tbd in Frameworks */,
+				12383BFE1F21FCAA0006E0C0 /* libc++.1.tbd in Frameworks */,
+				12383BFC1F21FCA10006E0C0 /* libiconv.2.tbd in Frameworks */,
+				12383BFA1F21FC9A0006E0C0 /* libstdc++.6.0.9.tbd in Frameworks */,
+				12383BF81F21FC910006E0C0 /* MediaPlayer.framework in Frameworks */,
+				12383BF61F21FC8C0006E0C0 /* CoreAudio.framework in Frameworks */,
+				12383BF41F21FC860006E0C0 /* CoreVideo.framework in Frameworks */,
+				12383BF21F21FC7E0006E0C0 /* CoreMedia.framework in Frameworks */,
+				12383BF01F21FC7A0006E0C0 /* VideoToolbox.framework in Frameworks */,
+				12383BEE1F21FC760006E0C0 /* AudioToolbox.framework in Frameworks */,
+				12383BEC1F21FC6F0006E0C0 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12383BC71F21FB890006E0C0 = {
+			isa = PBXGroup;
+			children = (
+				12383BD21F21FB890006E0C0 /* NGTMediaPlayerDemo */,
+				12383BD11F21FB890006E0C0 /* Products */,
+				12383BEA1F21FC6F0006E0C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12383BD11F21FB890006E0C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12383BD01F21FB890006E0C0 /* NGTMediaPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12383BD21F21FB890006E0C0 /* NGTMediaPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				12383BD61F21FB890006E0C0 /* AppDelegate.h */,
+				12383BD71F21FB890006E0C0 /* AppDelegate.m */,
+				12383BD91F21FB890006E0C0 /* ViewController.h */,
+				12383BDA1F21FB890006E0C0 /* ViewController.m */,
+				12383C031F21FCCC0006E0C0 /* NGTMediaPlayer */,
+				12383BDC1F21FB890006E0C0 /* Main.storyboard */,
+				12383BDF1F21FB890006E0C0 /* Assets.xcassets */,
+				12383BE11F21FB890006E0C0 /* LaunchScreen.storyboard */,
+				12383BE41F21FB890006E0C0 /* Info.plist */,
+				12383BD31F21FB890006E0C0 /* Supporting Files */,
+			);
+			path = NGTMediaPlayerDemo;
+			sourceTree = "<group>";
+		};
+		12383BD31F21FB890006E0C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12383BD41F21FB890006E0C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12383BEA1F21FC6F0006E0C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12383C011F21FCB40006E0C0 /* libbz2.1.0.tbd */,
+				12383BFF1F21FCAF0006E0C0 /* libz.1.tbd */,
+				12383BFD1F21FCAA0006E0C0 /* libc++.1.tbd */,
+				12383BFB1F21FCA10006E0C0 /* libiconv.2.tbd */,
+				12383BF91F21FC9A0006E0C0 /* libstdc++.6.0.9.tbd */,
+				12383BF71F21FC910006E0C0 /* MediaPlayer.framework */,
+				12383BF51F21FC8C0006E0C0 /* CoreAudio.framework */,
+				12383BF31F21FC860006E0C0 /* CoreVideo.framework */,
+				12383BF11F21FC7E0006E0C0 /* CoreMedia.framework */,
+				12383BEF1F21FC7A0006E0C0 /* VideoToolbox.framework */,
+				12383BED1F21FC760006E0C0 /* AudioToolbox.framework */,
+				12383BEB1F21FC6F0006E0C0 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12383C031F21FCCC0006E0C0 /* NGTMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				12383C181F21FD710006E0C0 /* IJKMediaFramework.framework */,
+				12383C051F21FCCC0006E0C0 /* NGTMediaPlayer.h */,
+				12383C061F21FCCC0006E0C0 /* NGTMediaPlayer.m */,
+				12383C1D1F2207490006E0C0 /* NGTMedia.bundle */,
+				12383C1A1F2206520006E0C0 /* UIImage+NGTMedia.h */,
+				12383C1B1F2206520006E0C0 /* UIImage+NGTMedia.m */,
+				12383C0B1F21FCCC0006E0C0 /* NGTMediaPlayerProgressView.h */,
+				12383C0C1F21FCCC0006E0C0 /* NGTMediaPlayerProgressView.m */,
+				12383C0D1F21FCCC0006E0C0 /* NGTMediaPlayerSliderView.h */,
+				12383C0E1F21FCCC0006E0C0 /* NGTMediaPlayerSliderView.m */,
+				12383C071F21FCCC0006E0C0 /* NGTMediaPlayerActionView.h */,
+				12383C081F21FCCC0006E0C0 /* NGTMediaPlayerActionView.m */,
+				12383C091F21FCCC0006E0C0 /* NGTMediaPlayerManager.h */,
+				12383C0A1F21FCCC0006E0C0 /* NGTMediaPlayerManager.m */,
+				12383C1F1F220C530006E0C0 /* NGTMediaPlayerManagerViewBinder.h */,
+				12383C201F220C530006E0C0 /* NGTMediaPlayerManagerViewBinder.m */,
+				12383C0F1F21FCCC0006E0C0 /* NGTMediaPlayerView.h */,
+				12383C101F21FCCC0006E0C0 /* NGTMediaPlayerView.m */,
+			);
+			name = NGTMediaPlayer;
+			path = ../../NGTMediaPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12383BCF1F21FB890006E0C0 /* NGTMediaPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12383BE71F21FB890006E0C0 /* Build configuration list for PBXNativeTarget "NGTMediaPlayerDemo" */;
+			buildPhases = (
+				12383BCC1F21FB890006E0C0 /* Sources */,
+				12383BCD1F21FB890006E0C0 /* Frameworks */,
+				12383BCE1F21FB890006E0C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGTMediaPlayerDemo;
+			productName = NGTMediaPlayerDemo;
+			productReference = 12383BD01F21FB890006E0C0 /* NGTMediaPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12383BC81F21FB890006E0C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NightXu;
+				TargetAttributes = {
+					12383BCF1F21FB890006E0C0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7CXCX9P8W5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 12383BCB1F21FB890006E0C0 /* Build configuration list for PBXProject "NGTMediaPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12383BC71F21FB890006E0C0;
+			productRefGroup = 12383BD11F21FB890006E0C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12383BCF1F21FB890006E0C0 /* NGTMediaPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12383BCE1F21FB890006E0C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12383C1E1F2207490006E0C0 /* NGTMedia.bundle in Resources */,
+				12383BE31F21FB890006E0C0 /* LaunchScreen.storyboard in Resources */,
+				12383BE01F21FB890006E0C0 /* Assets.xcassets in Resources */,
+				12383BDE1F21FB890006E0C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12383BCC1F21FB890006E0C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12383C1C1F2206520006E0C0 /* UIImage+NGTMedia.m in Sources */,
+				12383BDB1F21FB890006E0C0 /* ViewController.m in Sources */,
+				12383C161F21FCCC0006E0C0 /* NGTMediaPlayerSliderView.m in Sources */,
+				12383C171F21FCCC0006E0C0 /* NGTMediaPlayerView.m in Sources */,
+				12383C141F21FCCC0006E0C0 /* NGTMediaPlayerManager.m in Sources */,
+				12383C131F21FCCC0006E0C0 /* NGTMediaPlayerActionView.m in Sources */,
+				12383C151F21FCCC0006E0C0 /* NGTMediaPlayerProgressView.m in Sources */,
+				12383C121F21FCCC0006E0C0 /* NGTMediaPlayer.m in Sources */,
+				12383BD81F21FB890006E0C0 /* AppDelegate.m in Sources */,
+				12383BD51F21FB890006E0C0 /* main.m in Sources */,
+				12383C211F220C530006E0C0 /* NGTMediaPlayerManagerViewBinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12383BDC1F21FB890006E0C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12383BDD1F21FB890006E0C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12383BE11F21FB890006E0C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12383BE21F21FB890006E0C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12383BE51F21FB890006E0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12383BE61F21FB890006E0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12383BE81F21FB890006E0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CXCX9P8W5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../NGTMediaPlayer";
+				INFOPLIST_FILE = NGTMediaPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NGTMediaPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12383BE91F21FB890006E0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CXCX9P8W5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../NGTMediaPlayer";
+				INFOPLIST_FILE = NGTMediaPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NGTMediaPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12383BCB1F21FB890006E0C0 /* Build configuration list for PBXProject "NGTMediaPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12383BE51F21FB890006E0C0 /* Debug */,
+				12383BE61F21FB890006E0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12383BE71F21FB890006E0C0 /* Build configuration list for PBXNativeTarget "NGTMediaPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12383BE81F21FB890006E0C0 /* Debug */,
+				12383BE91F21FB890006E0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12383BC81F21FB890006E0C0 /* Project object */;
+}
